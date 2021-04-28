@@ -32,7 +32,7 @@ export default function () {
                 .defineSizeMapping(mapping)
                 .addService(googletag.pubads());
             
-            //googletag.pubads().enableSingleRequest();
+            googletag.pubads().enableSingleRequest();
             googletag.pubads().collapseEmptyDivs();
 
             googletag.enableServices();
