@@ -1,6 +1,6 @@
 import app from 'flarum/app';
 import addAdUnderHeader from './addAdsToIndexPage';
-import addAdBetweenPosts from './addAdsToDiscussionPage';
+import addAdsToDiscussionPage from './addAdsToDiscussionPage';
 
 app.initializers.add('flarum-ads', app => {
     addAdUnderHeader();
