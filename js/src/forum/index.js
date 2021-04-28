@@ -4,5 +4,5 @@ import addAdBetweenPosts from './addAdsToDiscussionPage';
 
 app.initializers.add('flarum-ads', app => {
     addAdUnderHeader();
-    addAdBetweenPosts();
+    addAdsToDiscussionPage();
 });

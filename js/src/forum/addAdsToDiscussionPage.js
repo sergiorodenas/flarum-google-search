@@ -24,7 +24,7 @@ export default function() {
 
             googletag
                 .defineSlot(
-                    "/22370525907/foros.header",
+                    "/22370525907/foros.thread",
                     [
                         [468, 60], [728, 90]
                     ],
