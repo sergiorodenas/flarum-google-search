@@ -1,0 +1,38 @@
+{
+    "name": "sergiorodenas/flarum-ads",
+    "description": "Ad extension for Flarum",
+    "keywords": [
+        "flarum", "ads", "advertising"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergio Rodenas",
+            "email": "serrogo@tedium.es",
+            "homepage": "http://sergiorodenas.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/sergiorodenas/flarum-ads/issues",
+        "source": "https://github.com/sergiorodenas/flarum-ads"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.16"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Flarum Ads",
+            "icon": {
+                "name": "fas fa-dollar-sign",
+                "backgroundColor": "#393e46",
+                "color": "#00adb5"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "SergioRodenas\\FlarumAds\\": "src/"
+        }
+    }
+}
