@@ -37,6 +37,14 @@ export default function () {
 
             googletag.enableServices();
         });
+
+        if (app.previous.type == null) {
+            // First navigation
+        } else {
+            googletag.cmd.push(function () {
+                googletag.display("div-gpt-ad-1619603804551-0");
+            }); 
+        }
     });
 
     // This is the extend we'll use to add the ads to the DOM (caution: can be executed some times for a single click)
