@@ -18,15 +18,15 @@ export default function() {
                 .sizeMapping()
                 .addSize([1100, 0], [[728, 90]]) // desktop-hd
                 .addSize([992, 0], [[728, 90]]) // desktop
-                .addSize([768, 0], [[468, 60]]) // tablet
-                .addSize([0, 0], [[468, 60]]) // phone
+                .addSize([768, 0], [[320, 50]]) // tablet
+                .addSize([0, 0], [[320, 50]]) // phone
                 .build();
 
             googletag
                 .defineSlot(
                     "/22370525907/foros.thread",
                     [
-                        [468, 60], [728, 90]
+                        [320, 50], [728, 90]
                     ],
                     "div-gpt-ad-1619614279094-0"
                 )
