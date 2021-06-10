@@ -1,8 +1,8 @@
 {
-    "name": "sergiorodenas/flarum-ads",
-    "description": "Ad extension for Flarum",
+    "name": "sergiorodenas/flarum-google-search",
+    "description": "Google-based search bar for Flarum",
     "keywords": [
-        "flarum", "ads", "advertising"
+        "flarum", "google", "search"
     ],
     "type": "flarum-extension",
     "license": "MIT",
@@ -14,17 +14,17 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/sergiorodenas/flarum-ads/issues",
-        "source": "https://github.com/sergiorodenas/flarum-ads"
+        "issues": "https://github.com/sergiorodenas/flarum-google-searchs/issues",
+        "source": "https://github.com/sergiorodenas/flarum-google-search"
     },
     "require": {
         "flarum/core": "^0.1.0-beta.15"
     },
     "extra": {
         "flarum-extension": {
-            "title": "Flarum Ads",
+            "title": "Flarum Google Search",
             "icon": {
-                "name": "fas fa-dollar-sign",
+                "name": "fas fa-searchengin",
                 "backgroundColor": "#393e46",
                 "color": "#00adb5"
             }
@@ -32,7 +32,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SergioRodenas\\FlarumAds\\": "src/"
+            "SergioRodenas\\FlarumGoogleSearch\\": "src/"
         }
     }
 }
