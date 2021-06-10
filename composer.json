@@ -24,7 +24,7 @@
         "flarum-extension": {
             "title": "Flarum Google Search",
             "icon": {
-                "name": "fas fa-searchengin",
+                "name": "fas fa-search",
                 "backgroundColor": "#393e46",
                 "color": "#00adb5"
             }
